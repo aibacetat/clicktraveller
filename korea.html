@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="./img/icons/click.png" type="image/x-icon">
+    <title>Clicktraveller</title>
+
+  <!--font awesome cdn-->  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--swiper slider css archivo-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.css" integrity="sha512-m3pAvNriL711NMlhkZHK6K4Tu2/RjtrzyjxZU8mlAbxxoDoURy27KajN1LGTLeEEPvaN12mKAgSCrYEwF9y0jA==" crossorigin="anonymous" />
+
+  <!--custom estilo.css archivo-->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <!--header-->
+    <header id="header" class="shadow bg-light">
+        <nav class="container navbar">
+            <div class="nav-brand text-dark">
+                <div style="text-align:left">Clicktraveller
+                </div>
+            </div>
+            
+            <!--boton toggle-->
+            <button class="toggle-boton">
+                <span><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!--alternar boton navegacion click-->
+            <div class="alternar">
+               <ul class="navbar-nav">
+                <a href="./index.html" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Destinos</a>
+                <a href="#" class="nav-link">Plan Trip</a>
+                <a href="#" class="nav-link">Tus Descuentos</a>
+                <a href="#acerca1" class="nav-link">About</a>
+                <a href="./contacto.html" class="nav-link">Contacto</a>
+               </ul> 
+            </div>
+
+            <!--alternar boton iconos click-->
+            <div class="alternar">
+                <ul class="navbar-nav">
+                    <div class="search-box">
+                        <a href="#" class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <a href="#" class="nav-link"><i class="fa-regular fa-envelope"></i></a>
+                    <a href="#" class="nav-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="nav-link"><i class="fa-brands fa-telegram"></i></a>
+                </ul>
+            </div>
+            <!--alternar boton click-->
+        </nav>
+    </header>
+    <!--header-->
+
+    <!--main sitio-->
+    <main id="sitio-main">
+       
+    <!--Contenido Posts-->
+        <section class="container">
+            <article id="post">
+                <!--articulo encabezado-->
+                <div class="headings text-center">
+                    <div class="category">
+                    <div style="text-align:center">
+                        <img src="./img/italia/romalogo.jpg" width="220" height="100">
+                    </div>
+                </div>
+
+                <div class="title">
+                    <h2 class="text-title text-dark display-1">Esenciales de Roma por 3 Días.</h2>
+                </div>
+
+                <div class="meta">
+                    <a href="#" class="link display-2 text-secondary px-1">
+                        <i class="fas fa-user text-primary"></i>Aaron Ibaceta, 
+                    </a>
+                    <a href="#" class="link display-2 text-secondary px-1">
+                        <i class="fas fa-date text-primary"></i>Miercoles 28 Sept, 2022
+                    </a>
+                    <a href="#" class="link display-2 text-secondary px-1">
+                        <i class="fas fa-comments text-primary"></i>15
+                    </a>
+                </div>
+            </div>
+            <!--miniatura-->
+            <div class="thumbnail mt-3">
+                <img src="./img/italia/italia.jpg" class="thumbnail" alt="">
+            </div>
+            <!--contenido-->
+            <div class="content text-dark display-2 secondary-title mt-2">
+                <p>¡Te Cuento todas las cosas <strong>que ver en Roma en 3 días</strong>! También los lugares donde comer y todas las reservas que es conveniente hacer con antelación.</p>
+                <p>Con un<strong> planning y ruta diaria con mapas</strong> de cada día para que te resulte más fácil de planificar.</p>
+                <p>Si dispones de <strong>tres días en Roma completos</strong> podrás recorrer los lugares más imprescindibles de la ciudad, ¡sin prisa pero sin pausa!</p>
+                <p>¡Allá vamos con todas las <strong>cosas que ver en Roma en tres días</strong>!</p>
+                <ul style="list-style: none">
+                    <nav>
+                    <div class="lista">
+                        <li><b><a href="#seccion1">Dia 1: Plaza de España, Fontana di Trevi, Panteon de Agripa, Piazza Navona, Museos Capitolinos y Monumento a Emanuele II.</a></b>
+                        <li><b><a href="#seccion2">Dia 2: Coliseo, Arco de Constantino, Palatino, Foro Romano, Circo Maximo, Bocca della Verita y Barrio de Trastevere.</a></b>  
+                        <li><b><a href="#seccion3">Dia 3: Vaticano, Castillo de SantAngelo y Piazza del Popolo.</a></b> 
+                        <li><b><a href="#seccion4">Donde Comer en 3 días de Roma.</a></b>    
+                        </div>
+                </ul>
+                <div id="seccion1">
+                <h3 class="text-primary"><strong><em><u>Dia 1: Plaza de España, Fontana di Trevi, Panteon de Agripa, Piazza Navona, Museos Capitolinos y Monumento a Emanuele II</u></em></strong></h3>
+                <p><strong>PUNTOS DE INTERÉS:</strong></p>
+                <ul><li><strong>Plaza de España </strong></li><li><strong>Fontana di Trevi</strong></li><li><strong>Panteón de Agripa</strong></li><li><strong>Piazza Navona</strong></li><li><strong>Museos Capitolinos</strong></li><li><strong>Monumento a <strong>Vittorio Emanuele II</strong> y Terraza de las Cuadrigas</strong></li></ul>
+                <p><strong>Te recomiendo los alojamientos<a href="https://www.booking.com/hotel/it/viminale-view.es.html?aid=827734" target="_blank"> Viminale View</a>&nbsp; y el&nbsp;<a href="https://www.booking.com/hotel/it/hrv-deluxe.es.html?aid=827734" target="_blank">Hotel Roma Vaticano</a>, para poder recorrer Roma andando </strong>sin prácticamente necesidad de transporte público. ¡<strong>Yo he alojado en ambos </strong>y los recomiendo totalmente!</p>
+                <p>Una buena manera de comenzar este <strong>viaje a Roma en tres días</strong> es <a href="https://www.civitatis.com/es/roma/free-tour-roma/?aid=1526" target="_blank">haciendo un free tour</a> por el centro de la ciudad o recorrerlo por tu cuenta.</p><p>Comenzamos en uno de los puntos más famosos de Roma, las famosas escaleras de la <strong>Plaza de España. </strong></p>
+                <p>Saliendo por la <strong>Via Condotti y continuando por la calle de tiendas Via del Corso</strong> se llega a uno de los puntos más importantes e imprescindibles de este viaje a Roma en 3 días, ¡<strong>la Fontana di Trevi</strong>!</p>
+                <span class="img-container">
+                    <img src="./img/italia/fontana.jpg" width="600px" alt="">
+                </span>
+                <p>Esta fuente es inconfundible, por mucho que la hayas visto en cientos de fotos es alucinante llegar a ella por los pasadizos secretos de las calles.</p>
+                <p>No te imaginas una fuente de esa magnitud escondida entre las callejuelas de Roma, ¡impresionante! </p>
+                <p>Por supuesto, no te olvides de tirar una moneda a la fuente de espaldas para volver a Roma.</p>
+                <p>El <strong>Panteón de Agripa</strong> es otra de las paradas importantes, la entrada es gratuita y la plaza en la que se encuentra también es una parada imprescindible.</p>
+                <span class="img-container">
+                    <img src="./img/italia/pateonagripa.jpg" width="600px" alt="">
+                </span>
+                <p>Muy cerca se encuentra la <strong>Heladeria Giolitti</strong>, una de las heladerías más famosas de Roma. ¡Nadie hace los helados como los italianos!</p>
+                <p>A estas alturas seguro que te has quedado pasmado de las calles de esta zona de Roma, ¡una maravilla!</p>
+                <p>A pocos minutos andando desde el <strong>Panteón de Agripa se encuentra la Piazza Navona</strong>, otra majestuosa plaza romana, para mi de las más bonitas de la ciudad.</p>
+                <p>Por esta zona hay un montón de restaurantes, por ejemplo puedes comer en Saltimbocca Ristorante.</p>
+                <p>Más abajo te dejo algunas otras <strong>recomendaciones de restaurantes en Roma</strong>, la comida italiana es una de mis preferidas, ¡deliciosa!</p>
+                <p>La tarde la puedes dedicar a<strong> visitar los Museos  Capitolinos</strong> por tu cuenta aunque es recomendable <a href="https://www.civitatis.com/es/roma/visita-guiada-museos-capitolinos/?aid=1526" target="_blank">hacerlo en una visita guiada</a> para no perderte nigun detalle.</p>
+                <p>Aquí se encuentra la famosa <strong>escultura de la loba amamantando a Rómulo y Remo</strong>.</p>
+                <span class="img-container">
+                    <img src="./img/italia/romulo.JPG" width="600px" alt="">
+                </span>
+                <p>Por cierto, justo al lado de los <strong>Museos Capitolinos</strong> están las mejores vistas (a mi parecer) del <strong>Foro Romano</strong>, tiene la ubicación exacta en el mapa de abajo.</p>
+                <span class="img-container">
+                    <img src="./img/italia/fororomano1.JPG" width="600px" alt="">
+                </span>
+                <p>Y qué mejor que terminar este primer día con unas vistas excelentes a toda la ciudad desde la <strong>Terrazza delle Quadrighe o Terraza de las Cuadrigas</strong>, ¡uno de los lugares que tienes <strong>que ver en Roma en tres días</strong>!</p>
+            </div>
+            <div id="seccion2">
+                <h3 class="text-primary"><strong><em><u>Dia 2: Coliseo, Arco de Constantino, Palatino, Foro Romano, Circo Maximo, Bocca della Verita y Barrio de Trastevere.</u></em></strong></h3>
+                <p style="font-size:23px"><strong>Posibles reservas para el día de hoy:</strong></p>
+                <ul><li>Free tour por Roma. <a href="https://www.civitatis.com/es/roma/free-tour-roma/?aid=1526" target="_blank">Reservar aquí<span style="color: var(--body-color,var(--color-body)); font-family: var(--body-font-family,unset); font-size: var(--body-font-size,var(--font-size-md)); font-style: var(--body-font-style,normal); font-weight: var(--body-font-weight,unset);">.</span></a></li><li>Visita guiada por el Panteón de Agripa. <a href="https://www.civitatis.com/es/roma/visita-guiada-panteon-agripa/?aid=1526" target="_blank">Reservar aquí.</a></li><li>Visita guiada por los Museos Capitolinos. <a href="https://www.civitatis.com/es/roma/visita-guiada-museos-capitolinos/?aid=1526" target="_blank">Reservar aquí</a>.</li><li>Entrada a los Museos Capitolinos por libre. <a href="https://www.museicapitolini.org/" target="_blank">Reservar aquí</a>.</li><li>Terraza de las Cuadrigas. <a href="https://vive.beniculturali.it/it/terrazza-panoramica" target="_blank">Reservar aquí</a>.</li></ul>
+                <p class="has-text-align-center"><strong>Si no quieres complicarte la vida llegando a Roma, puedes  <a href="https://www.civitatis.com/es/roma/traslados/?aid=1526" target="_blank">contratar los traslados desde el aeropuerto hasta tu hotel</a>, ¡sin estrés! Yo Contrate uno en mi último viaje y fue todo un acierto con las 3B.</strong></p>
+                <p><strong>PUNTOS DE INTERÉS:&nbsp;</strong></p>
+                <ul><li><strong>Coliseo</strong></li><li><strong>Arco de Constantino</strong></li><li><strong>Palatino</strong></li><li><strong>Foro Romano</strong></li><li><strong>Circo Máximo</strong></li><li><strong>Bocca della Verità</strong></li><li><strong>Barrio de Trastevere</strong></li></ul>
+                <p>Comenzamos este segundo día del planning de <strong>viaje a Roma en tres días</strong> en el icono principal de la ciudad, ¡el Coliseo!</p>
+                <span class="img-container">
+                    <img src="./img/italia/coliseo4.JPG" width="600px" alt="">
+                </span>
+                <p>Considerado <strong>una de las 7 maravillas del mundo</strong> es posiblemente la obra más conocida de Roma por todo el mundo.</p>
+                <p>Te sugiero <strong>visitarlo a primera hora de la mañana</strong> para evitar multitudes en las colas, <strong>y también hacerlo con guía</strong>, de esta forma resulta mucho más interesante la visita.</p>
+                <p><strong>Formas de visitar el Coliseo de Roma:</strong></p>
+                <ul><li><strong>Comprar la entrada online</strong>, cobran 2€ de gastos de gestión pero es la mejor forma de ver el Coliseo por libre el día <br>y hora que queremos. ¡Ojo! Hay muchas webs que venden entradas para el Coliseo, esta es la <strong><a href="https://www.coopculture.it/en/colosseo-e-shop.cfm" target="_blank">web oficial del Coliseo</a></strong>.</li><li>Contratar una <strong><a href="https://www.civitatis.com/es/roma/visita-guiada-roma-antigua/?aid=1526" target="_blank">visita guiada por el Coliseo, Foro y Palatino</a></strong>.</li><li>Contratar una visita guiada como la anterior pero que además<strong> incluye los Museos Vaticanos, la Capilla Sixtina <br>y la Basílica de San Pedro</strong>, <a href="https://www.civitatis.com/es/roma/visita-guiada-roma-completo/?aid=1526" target="_blank">toda la info aquí</a>.</li><li>Con la tarjeta turística&nbsp;<strong><a href="https://www.civitatis.com/es/roma/omnia-vatican-rome-card/?aid=1526" target="_blank">Omnia Vatican &amp; Rome Card</a></strong>&nbsp;también tendrás el acceso sin colas.</li></ul>
+                <p>Si decides visitarlo sin guía, te sugiero al menos pagar por un audio-guía en la entrada del Coliseo.</p>
+                <p><strong>La entrada para el Coliseo incluye también la entrada al Foro Romano y al Palatino</strong>, puedes acceder a ellos durante las siguientes 24 horas. </p>
+                <p><strong>El primer domingo del mes la entrada al Coliseo es gratuita</strong>.</p>
+                <p><strong>Visitar el Coliseo, Foro Romano y Palatino te llevará toda la mañana</strong> ¡o más! Dependiendo de si lo haces con guía y el tiempo que pases en cada lugar. </p>
+                <p>Para comer puedes hacerlo en este restaurante con vistazas al Coliseo o en alguno de los muchos restaurantes que hay por los alrededores.</p>
+                <p>La tarde la puedes dedicar a recorrer el <strong>Barrio de Trastevere</strong> no sin antes pasar por la <strong>Bocca della Verità</strong>. </p>
+                <span class="img-container">
+                    <img src="/img/italia/bocaverita.jpg" width="600px" alt="">
+                </span>
+                <p>La entrada a la Bocca della Verità (o Boca de la Verdad) es gratuita y la leyenda dice que <strong>quien miente pierde la mano al introducirla en la boca</strong>. </p>
+                <p>También aparece en la peli de "Vacaciones en Roma" de Audrey Hepburn.</p>
+                <p>Despues está El <strong>Barrio de Trastevere</strong> uno de los más conocidos de Roma por sus bares y restaurantes, sobre todo al caer la tarde, y por tener un ambiente algo bohemio.</p>
+                <span class="img-container">
+                    <img src="/img/italia/roma2.JPG" width="600px" alt="">
+                </span>
+                <p>El restaurante <strong>Cambio Trastevere</strong> también es recomentable para desayunar, brunch o incluso para cenar.</p>
+                <p>Y en este barrio que tanto me gusta termina nuestro segundo día de <strong>viaje a Roma en tres días</strong>.</p>
+                <p>Más abajo tienes un montón de <strong>recomendaciones de restaurantes en Trastevere</strong> para cenar.</p>
+                <p style="font-size:23px"><strong>Reservas para el día de hoy:</strong></p>
+                <p>Reservar la entrada al Coliseo</strong> de alguna de las formas que te comentaba más arriba.</p>
+                <p>Te sugieros probar el tiramisú en <strong>Tiramisú Trastevere</strong>, lo hacen al momento ¡y está buenísimo!</p>
+                <p class="has-text-align-center">Aquí tienes más <a href="https://www.civitatis.com/es/roma/?aid=1526" target="_blank">ideas de tours guiados, entradas y excursiones</a> en Roma.</p>
+            </div>
+            <div id="seccion3">
+                    <h3 class="text-primary"><strong><em><u>Dia 3: Vaticano, Castillo de SantAngelo y Piazza del Popolo.</u></em></strong></h3>
+                    <p><strong>PUNTOS DE INTERÉS:&nbsp;</strong></p>
+                    <ul><li><strong>Museos Vaticanos</strong></li><li><strong>Capilla Sixtina</strong></li><li><strong>Basílica de San Pedro</strong></li><li><strong>Castillo de Sant'Angelo</strong></li><li><strong>Plaza del Pópolo.</strong></li></ul>
+                    <p>¡No es un viaje completo a Roma sin una visita al Vaticano!</p>
+                    <span class="img-container">
+                        <img src="./img/italia/vaticano1.JPG" width="600px" alt="">
+                    </span>
+                    <p>Para este <strong>planning de Roma en tres días</strong> lo he dejado para el último día pero se pueden intercambiar los días en el orden que más te guste, según tus preferencias.</p>
+                    <p>Te sugieros comenzar el día en los <strong>Museos Vaticanos</strong> para evitar las colas que se forman más tarde.</p>
+                    <p>La <strong>entrada a la Basílica de San Pedro es gratuita</strong>, pero si quieres visitar los Museos Vaticanos, la Capilla Sixtina o subir a la Cúpula de San Pedro, sí que hay que comprar una entrada.</p>
+                    <p><strong>Formas de visitar los Museos Vaticanos y la Capilla Sixtina:</strong></p>
+                    <ul><li><strong>Visitar los Museos Vaticanos y la Capilla Sixtina por libre</strong>. Esta es la <a href="https://tickets.museivaticani.va/home" target="_blank">web oficial del Vaticano</a>.</li><li>Hacer una <a href="https://www.civitatis.com/es/roma/visita-guiada-vaticano/?aid=1526" target="_blank">visita guiada por los Museos Vaticanos y la Capilla Sixtina</a>. <strong>¡El más recomendado!</strong></li><li>Hacer un <a href="https://www.civitatis.com/es/roma/primer-acceso-museos-vaticanos-sixtina/?aid=1526" target="_blank">tour con primer acceso a la Capilla Sixtina + Museos Vaticanos</a>. Yo hice este en mi último viaje a Roma pero a pesar de ser el "primer acceso" había mucha gente.</li></ul>
+                    <p>Si quieres subir a lo alto de la cúpula de San Pedro también tienes que comprar una entrada y subir unos cuántos escalones. </p>
+                    <p>En total son 551 escalones divididos en dos alturas, a la primera se puede acceder con ascensor y te ahorras 231 escalones. <br>Para la segunda altura no hay ascensor y sí o sí tienes que subir 320 escalones.</p>
+                    <p><strong>Recorrer los Museos Vaticanos, la Capilla Sixtina y la Basílica de San Pedro</strong> también te llevará toda la mañana.</p>
+                    <p>Te sugieros comer en el barrio de Prati tiene muchísimos restaurantes populares y cafeterías, este barrio fue <strong>uno de los grandes descubrimientos en mi último viaje a Roma.</strong></p>
+                    <p>Estuve alojado en el <a href="https://www.booking.com/hotel/it/hrv-deluxe.es.html?aid=827734" target="_blank">Hotel Roma Vaticano</a> ¡y quedé enamorado del barrio! Con un ambiente mucho más local y repleto de restaurantes y cafeterías bonitas.</p>
+                    <p>Te sugieros <strong>Chopstick Prati</strong>, un japonés genial, ¡y la comida estaba buenísima! </p>
+                    <p>Y si te apetece algo más típico, el restaurante <strong>3 Quarti</strong> me encantó, comida italiana muy buena y genial de precio.</p>
+                    <p>Para la tarde del último día de este <strong>viaje a Roma en 3 días</strong> todavía quedan dos puntos importantes que no te lo puedes perder.</p>
+                    <span class="img-container">
+                        <img src="./img/italia/sanangelo.JPG" width="600px" alt="">
+                    </span>
+                    <p>En primer lugar, el <strong>Castillo de Sant'Angelo</strong>, otro de los iconos de Roma, ¡seguro que lo has visto en cientos de fotos!</p>
+                    <p>Este lugar tiene mucha historia y <a href="https://www.civitatis.com/es/roma/visita-castillo-sant-angelo/?aid=1526" target="_blank">Te sugiero recorrerlo con guía</a> para conocer mejor todas las curiosidades, pero también se puede visitar por libre.</p>
+                    <p>Y para terminar, una <strong>visita a la Plaza del Pópolo</strong>, uno de los <strong>lugares imprescindibles que ver en Roma en 3 días</strong>.</p>
+                    <p>Es otra de las plazas más importantes de la ciudad, en el medio hay un obelisco&nbsp;egipcio dedicado a&nbsp;Ramsés II&nbsp;de 24 metros.</p>
+                    <span class="img-container">
+                        <img src="./img/italia/soldado1.JPG" width="600px" alt="">
+                    </span>
+                    <p>Desde la <strong>Terrazza del Pincio</strong> (que se encuentra justo allí) hay unas vistas estupendas al caer la tarde, ¡no te lo pierdas!</p>
+                    <p style="font-size:23px"><strong>Reservas para el día de hoy:</strong></p>
+                    <ul><li><strong>Reservar la entrada a los Museos Vaticanos y Capilla Sixtina</strong> de alguna de las formas que comenté más arriba.</li><li><a href="https://www.civitatis.com/es/roma/visita-castillo-sant-angelo/?aid=1526" target="_blank">Visita guiada por el Castillo de Sant'Angelo.</a></li></ul>
+                    <h3><strong>Más cosas que ver en Roma en 3 días:</strong></h3>
+                    <ul><li><strong>Hacer una excursión a las Catacumbas y la Via Appia,&nbsp;</strong>una de las calzadas más importantes de la antigua Roma. Puedes hacerlo por tu cuenta o contratando&nbsp;<a href="https://www.civitatis.com/es/roma/excursion-catacumbas-roma/?aid=1526" target="_blank">una excursión con guía en español.</a></li><li>Visitar el <a href="https://www.civitatis.com/es/roma/entradas-wecome-rome/?aid=1526" target="_blank">museo interactivo Welcome to Rome</a>, yo estuve en mi último viaje y es interesante para saber más sobre la historia de Roma de una forma muy amena.</li><li><strong>Parque Villa Borghese</strong>, un enorme parque público repleto de zonas ajardinadas, fuentes y estanques.</li><li><strong>Campo di Fiori,</strong> una animada plaza de Roma donde montan de lunes a sábado un colorido y pintoresco mercado local. </li><li><strong>Basilica de Santa Maria Maggiore</strong>, la mandó construir el Papa Liberio y es la mayor de las 26 iglesias de Roma dedicadas a la Virgen María.</li><li><strong>Termas de Caracalla</strong>, fueron las segundas termas más grandes de la ciudad de Roma y es <a href="https://www.civitatis.com/es/roma/visita-guiada-termas-caracalla/?aid=1526" target="_blank">una de las excursiones más populares</a> desde Roma.</li><li><strong>Moisés de Miguel Ánge,</strong> se encuentra en la Basílica de San Pietro in Vincoli y es una enorme escultura de mármol de más de dos metros.</li><li><strong>Mercado Central de Roma</strong>, se encuentra en la estación de Termini y es un lugar estupendo para comer en alguno de sus restaurantes.</li><li><strong>Vicus Caprarius - La Città dell'Acqua</strong>, restos arqueológicos junto a la Fontana di Trevi.</li></ul>
+                    <h3><strong>Dónde alojarse tres días en Roma</strong></h3>
+                    <p>Te sugieros consultar las <a href="https://www.viviendodeviaje.com/donde-alojarse-en-roma/" target="_blank">mejores zonas donde alojarse en Roma </a>para disfrutar de un viaje estupendo.</p>
+                    <p>En mi ultimo viaje de tres días a Roma me alojé en el <a href="https://www.booking.com/hotel/it/hrv-deluxe.es.html?aid=827734" target="_blank">hotel Roma Vaticano</a> ¡y quedé maravillado del barrio! Con un ambiente mucho más local y repleto de restaurantes y cafeterías bonitas. </p>
+                    <p>Este barrio fue <strong>uno de los grandes descubrimientos en mi último viaje a Roma</strong>, en el siguiente apartado tienes un listado de restaurantes y muchos de ellos se encuentran en este barrio.</p>
+                    <p>También conocemos el <strong><a href="https://www.booking.com/hotel/it/viminale-view.es.html?aid=827734" target="_blank">Viminale View</a></strong>, un hotel super bonito en el que estuve alojado en un viaje anterior.</p>
+                    <p>He estado un montón de veces en Roma y me conozcos unos cuántos hoteles, pero si tengo que recomendar, ¡me quedo con estos dos!</p>
+            </div>
+            <div id="seccion4">
+                    <h3><strong>Restaurantes recomendados en Roma</strong></h3>
+                    <p>Tenemos una larga lista de restaurantes que me gustan especialmente, muchos se encuentran en el barrio de Prati porque fue donde se encontraba mi alojamiento.</p>
+                    <p>¡Hay de todo! Restaurantes de comida típica, japoneses, poke...</p>
+                    <p>Abajo tienes todo el listado y aquí te dejo un mapa para que puedas ver la ubicación de todos los restaurantes de un solo vistazo.</p>
+                    <p><strong>Restaurantes en Roma:</strong></p>
+                    <ul><li><strong>Coromandel</strong>, genial para hacer un brunch cerca de la plaza Navona, hay que reservar mesa.</li><li><strong>Casa &amp; Bottega</strong>, muy cerca del anterior y también genial para desayunar o tomar un brunch.</li><li><strong>Mimì e Cocò</strong>, comida italiana rica, un poco turístico.</li><li><strong>Cambio Trastevere,</strong> local muy bakan para hacer un brunch, comer o cenar en el barrio de Trastevere.</li><li><strong>Royal Art Cafè Roma</strong>, Tiene una terraza muy bella con vistas al Coliseo, Te sugiero reservar mesa.</li><li><strong>Tiramisú Trastevere</strong>, para probar el tiramisú, lo hacen al momento delante de ti, ¡buenísimo!</li><li><strong>Two Sizes</strong>, también una opción estupenda para probar el tiramisú.</li><li><strong>Heladeria Giolitti</strong>, cerca del Panteón de Agripa, posiblemente la heladería más famosa de Roma.</li><li><strong>Terrazza Les Étoiles Roma</strong>, terraza para tomar algo o comer con vistas al Vaticano.</li><li><strong>Mercado Central</strong>, junto a la estación central de Roma tiene un gran oferta de comidas y productos locales.</li><li><strong>Santo Trastevere</strong>, otro restaurante muy bueno en Trastevere.</li><li><strong>Ivo a Trastevere</strong>, pizza y pasta genial de Precio.</li><li><strong>Baby bao</strong>, Dim Sum &amp; Bao Bar en Trastevere.</li><li><strong>Rifugio Romano</strong>, trattoria genial de precio.</li><li><strong>Saltimbocca ristorante</strong>, cerca de Piazza Navona.</li><li><strong>Pasta e Vino Osteria</strong> en Trastevere.</li></ul>
+                    <p><strong>Barrio de Prati:</strong></p>
+                    <ul><li><strong>3 Quarti Restaurant</strong>, comida italiana muy buena y genial de precio, uno de nuestros restaurantes favoritos de Roma. ¡Nada turístico!</li><li><strong>Chopstick Prati</strong>, un japonés muy bueno con comida buenísima.</li><li><strong>Bao Bao</strong>, restaurante de dumplings muy rico, puedes comer ahí o pedir para llevar.</li><li><strong>Sushi Poke Love</strong>, restaurante de poke, yo lo pedi para llevar, pero también te lo puedes tomar allí.</li><li><strong>Il Gianfornaio</strong>, todo el día están preparando comida deliciosa, es  ideal para desayunar, tomar un café o comer algo rápido.</li><li><strong>Bakery M</strong>, ademas de  preparar buenos cafés puedes comer y por la tarde animan la cafetería con música.</li></ul>
+                    <h2><strong>Consejos para tu viaje a Roma</strong>:</h2>
+                    <p><span style="font-weight: bold;">TARJETA <strong>OMNIA VATICAN &amp; ROME CARD</strong>:</span>Incluye&nbsp;transporte público ilimitado durante 3 días en Roma, acceso gratuito a los principales museos y lugares de interés,&nbsp;&nbsp;y otros&nbsp;descuentos. <a href="https://www.civitatis.com/es/roma/omnia-vatican-rome-card/?aid=1526" target="_blank">Más info aquí</a>.</p><p><span style="font-weight: bold;">COMO LLEGAR DESDE EL AEROPUERTO A ROMA: </span>El aeropuerto de Fiumicino se encuentra a unos 30 kilómetros de Roma, hay varias formas de llegar a la ciudad:</p>
+                    <ul><li><strong>Autobús:</strong> <a href="https://www.terravision.eu/spagnolo/rome_fiumicino.html?af=2602251&amp;cm=75" target="_blank">Terra Visión</a> conecta el aeropuerto con la estación Termini de Roma, tarda unos 45 minutos en llegar y cuesta unos 6€ el trayecto.</li><li><strong>Tren: </strong>Hay dos trenes que hacen el trayecto Roma-Fiumicino, uno regional que tarda una hora pero es más económico, y otro express que hace el trayecto en media hora.</li><li><strong>Traslados:</strong> <a href="https://www.civitatis.com/es/roma/traslados/?aid=1526" target="_blank">Contratando los traslados desde el aeropuerto a tu hotel</a>, esta es la opción más cómoda y la que generalmente yo utilicé en mi último viaje a Roma.</li></ul>
+                    <p><strong>SEGURO DE VIAJE:</strong> Te sugiero <strong>llevar un seguro de viaje</strong> que cubra cualquier contratiempo que pueda ocurrir, además para un viaje de tres días a Roma es muy asequible, más aún con el <a href="https://www.iatiseguros.com/?r=94798581199657" target="_blank">5% de descuento que tenéis desde nuestro enlace</a>.</p>
+                    <h3><strong>Cómo moverse por Roma</strong></h3>
+                    <p>Lo mejor es moverse por Roma en metro, autobús o tranvía, dependiendo del trayecto.</p>
+                    <p>Los taxis son bastante caros y es una ciudad con bastantes atascos, no lo recomiendo.</p>
+                    <p>Puedes comprar un <strong>bono turístico de tres días en Roma</strong> que te sirve para todos los medios de transporte.</p>
+                    <p>Finalmente aqui encontraras un mapa con todas las cosas que ver y hacer en 3 días en Roma, restaurantes recomendados y alojamientos donde pasar unos días inolvidables.</p>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/embed?mid=1NJwpPo5uw9kMNYPI2qYjnXdC7HKa5_0&ehbc=2E312F" width="640" height="480"></iframe>" width="640" height="480"></iframe>"></iframe><a href="https://mcpenation.com/">MCPE Nation</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+                    <h3 class="has-text-align-center">¡Y hasta aquí el post de<strong> Roma en tres días</strong>!</h3>
+                    <p>¿Añadirías alguna cosa más <strong>que ver en Roma en tres días</strong>? Si tienes cualquier duda, ¡te espero en los comentarios!</p>
+                </div>
+            </div>
+        </article>
+        <!-- post footer -->
+        <div class="post-footer mb-3">
+            <div class="post-tags d-flex flex-wrap justify-content-center">
+                <a href="./paris.html" class="nav-link btn bg-light">Paris</a>
+                <a href="#" class="nav-link btn bg-light">Kyiv</a>
+                <a href="#" class="nav-link btn bg-light">El Cairo</a>
+                <a href="./madrid.html" class="nav-link btn bg-light">Madrid</a>
+                <a href="#" class="nav-link btn bg-light">Seoul</a>
+            </div>
+
+            <div class="post-author text-center">
+                <div class="author-avatar">
+                    <img src="./img/footer.jpg" class="rounded" alt="">
+                </div>
+
+                <div class="author-info py-2">
+                    <h3 class="text-dark">Aaron Ibaceta</h3>
+
+                    <p class="text-secondary secondary-title">
+                        Una Ciudad llena de historia, guerras y contiendas, renombre historico y gran valor cultural!
+                    </p>
+
+                    <div class="post-tags d-flex flex-wrap justify-content-center">
+                        <a href="#" class="nav-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="nav-link"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- post related -->
+            <div class="post-realted py-2">
+                <div class="row justify-content-center">
+                    <div class="prev">
+                        <div class="py-2">
+                            <a href="#" class="display-2 text-dark">
+                                <i class="fas fa-chevron-left"></i> 
+                                Anterior Post
+                            </a>
+                        </div>
+                        <article class="article text-center">
+                            <div class="d-flex">
+                                <a href="#">
+                                    <img src="./img/6.jpg" class="object-fit" alt="">
+                                </a>
+                                <div class="cart-body px-1">
+                                    <div class="category">
+                                        <a href="#" class="link text-primary text-secondary">El Cairo</a>
+                                    </div>
+                                    <a href="#" class="text-title display-1 text-dark">
+                                        Las Famosas Piramides de Egipto, Legado de Faraones.
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="next text-right">
+                        <div class="py-2">
+                            <a href="#" class="display-2 text-dark">
+                                Sigte Post 
+                                <i class="fas fa-chevron-right"></i> 
+                            </a>
+                        </div>
+                        <article class="article text-center">
+                            <div class="d-flex">
+                                <div class="cart-body px-1">
+                                    <div class="category">
+                                        <a href="#" class="link text-primary text-secondary">Kyiv</a>
+                                    </div>
+                                    <a href="#" class="text-title display-1 text-dark">
+                                        Слава Україні! Estatua Madre Patría Ucrania, Kiev.
+                                    </a>
+                                </div>
+                                <a href="#">
+                                    <img src="./img/8.jpg" class="object-fit" alt="">
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-comments py-2">
+                <h3 class="text-center display-1 secondary-title py-2">5 Comentarios</h3>
+
+                <div class="comment-details">
+                    <div class="comment-item py-2">
+                        <div class="d-flex">
+                            <div class="avatar px-2">
+                                <img src="./img/faces/dadario.jpg" class="rounded" alt="">
+                            </div>
+                            <div class="comment-content">
+                                <h5 class="display-2 m-0">A.Dadario</h5>
+                                <p class="title-secondary text-dark">
+                                    Me encanta la historia de Roma.
+                                </p>
+                            </div>
+                        </div>
+                         <!-- comentario gente -->
+                         <div class="reply py-2">
+                            <div class="d-flex">
+                                <div class="avatar px-2">
+                                    <img src="./img/faces/keanu.jpg" class="rounded" alt="">
+                                </div>
+                                <div class="comment-content">
+                                    <h5 class="display-2 m-0">K.Reeves</h5>
+                                    <p class="title-secondary text-dark">
+                                        Muchos guerreros notables pasaron por el coliseo Romano para entrener a la gente.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="comment-item py-2">
+                        <div class="d-flex">
+                            <div class="avatar px-2">
+                                <img src="./img/faces/wilde.jpg" class="rounded" alt="">
+                            </div>
+                            <div class="comment-content">
+                                <h5 class="display-2 m-0">O.Wilde</h5>
+                                <p class="title-secondary text-dark">
+                                    Nadie podría decir no a una cena romantica cerca del coliseo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="text-center display-1 secondary-title py-2">Dejame Un Comentario</h3>
+
+                <div class="comment-form">
+                    <div class="d-flex justify-content-between flex-wrap">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                        <input type="email" class="form-control" placeholder="Correo">
+                        <input type="text" class="form-control" placeholder="Sitio Web">
+                    </div>
+                    <textarea class="form-control mt-3" placeholder="Mensaje" rows="10"></textarea>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary display-2 text-light mt-2">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .post footer -->
+
+    </section>
+
+    <!--Contenido Posts-->
+
+        <!-- Swiper deslizador -->
+        <section class="slider">
+            <div class="container">
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Addicional envoltura -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="./paris.html">
+                                <img src="./img/slider/1slide.jpg" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <!-- Slides -->
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./img/slider/2slide.jpg" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <!-- Slides -->
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="./roma.html">
+                                <img src="./img/slider/3slide.jpg" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <!-- Slides -->
+                        <!-- Slides -->
+                         <div class="swiper-slide">
+                            <a href="./madrid.html">
+                                <img src="./img/slider/4slide.jpg" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="./paris.html">
+                                <img src="./img/slider/5slide.jpg" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./img/slider/6slide.jpg" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./img/slider/7slide.jpg" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <!-- Slides -->
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <!-- .Swiper dezlizador -->
+    
+    </main>
+    <!--main sitio-->
+
+
+    <!--footer-->
+    <footer id="footer">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col-3">
+                    <h2 class="footer-title secondary-title">Acerca de Mí</h2>
+                    <div id="acerca1"></div>
+                    <div class="secondary-title text-secondary">
+                        <p class="mt-2">
+                            Hace unos años que decidí salir de la burbuja para conocer la amalgama de historias que esperaban por mí en el mundo, soy un aventurero que viaja por el mundo y aquí te hablo de mis consejos, detalles y tips de todos los lugares que visité.
+                        </p>
+                        <address>
+                            <i class="fas fa-map-marker-alt text-primary"></i>
+                            Av. Bellavista 0990, Santiago, Chile.
+                        </address>
+                        <div class="email">
+                            <i class="fas fa-envelope text-primary"></i>
+                            clicktraveller@clicktraveller.cl
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h2 class="footer-title secondary-title">Populares Posts</h2>
+                    <div class="feature-post">
+                        <div class="flex-item">
+                            <article class="articulo">
+                                <div class="d-flex">
+                                    <a href="./paris.html">
+                                        <img src="./img/1.jpg" class="object-fit px-1" alt="">
+                                        <div class="px-1">
+                                            <a href="./paris.html" class="text-title display-2 text-dark">
+                                                Visitando el Palacio de Versalles en Paris.
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-calendar text-primary"></i>Jueves 08 sept, 2022</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="flex-item">
+                            <article class="articulo">
+                                <div class="d-flex">
+                                    <a href="#">
+                                        <img src="./img/7.jpg" class="object-fit px-1" alt="">
+                                        <div class="px-1">
+                                            <a href="#" class="text-title display-2 text-dark">
+                                                Stonehenge Lugar Mistico, Inglaterra.
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-calendar text-primary"></i>jueves 12 may, 2015</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="flex-item">
+                            <article class="articulo">
+                                <div class="d-flex">
+                                    <a href="./madrid.html">
+                                        <img src="./img/4.jpg" class="object-fit px-1" alt="">
+                                        <div class="px-1">
+                                            <a href="./madrid.html" class="text-title display-2 text-dark">
+                                                Recorriendo Madrid en Vacaciones de Invierno.
+                                            </a>
+                                            <p class="secondary-title text-secondary display-3">
+                                                <span><i class="far fa-calendar text-primary"></i>miercoles 17 agos, 2022</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h2 class="footer-title secondary-title">Tags</h2>
+
+                    <div class="tags">
+                        <div class="d-flex flex-wrap">
+                            <a href="#" class="nav-link btn bg-light">Consejos</a>
+                            <a href="./madrid.html" class="nav-link btn bg-light">Madrid</a>
+                            <a href="./paris.html" class="nav-link btn bg-light">Paris</a>
+                            <a href="#" class="nav-link btn bg-light">Descuentos</a>
+                            <a href="./roma.html" class="nav-link btn bg-light">Roma</a>
+                        </div>
+                    </div>
+                    <h2 class="footer-title secondary-title mt-2">Redes Sociales</h2>
+
+                    <div class="tags social">
+                        <div class="d-flex flex-wrap">
+                            <a href="#" class="nav-link btn bg-light"><i class="fab fa-telegram"></i></a>
+                            <a href="#" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="nav-link btn bg-light"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="nav-link btn bg-light"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--Derechos de Autor-->
+            <div class="copyrights">
+                <p class="text-center text-secondary display-2">
+                     Copyright© 2022 <a href="#" class="text-primary">ClicktravellerⓇ</a> - Todos los Deerchos Reservados. 
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!--footer-->
+
+        <!--masonry libreria para grid horizontal-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous"></script>
+
+        <!--swiper slider cdn-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js" integrity="sha512-1LlEYE0qExJ/GUfAJ0k2K2fB5sIvMv/q6ueo3syohvQ3ElWDQVSMUOf39cxaDWHtNu7M6lF6ZC1H6A1m3SvheA==" crossorigin="anonymous"></script>
+
+        <!--custom js main.js archivo-->
+        <script src="main.js"></script>
+</body>
+</html>
