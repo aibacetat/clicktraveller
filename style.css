@@ -7,8 +7,8 @@
     font-family: 'Roboto', sans-serif;
 */
 
-
 /* root estilo */
+
 :root {
     --light:#f8f9fa;
     --secondary:#adb5bd;
@@ -31,6 +31,11 @@ a{
 * > *{
     box-sizing: border-box;
 }
+
+
+/*prueba*/ 
+
+/*prueba*/
 
 /* global estilo */
 .text-light{
@@ -173,6 +178,10 @@ a{
     width: 120px;
     object-fit: fill;
     border-radius: 99px;
+}
+
+.shadow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 /* seccion estilo */
@@ -335,6 +344,38 @@ a{
 
 /* ----------- pagina articulo ------- */
 
+/* ----------- sidebar pagina ------- */
+#sidebar .categories a{
+    padding: 1em 3em;
+    font-size: 18px;
+    margin-bottom: 1em;
+    background-color: var(--light);
+    border-radius: 99px;
+}
+
+#sidebar .categories a:hover{
+    background-color: var(--primary-color);
+    color: var(--light);
+}
+
+/* ----------- .sidebar pagina ------- */
+
+/* ----------- sticky ------- */
+
+.sticky{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.sticky + .content{
+    padding-top: 60px;
+}
+
+/* ----------- .sticky ------- */
+
+
 /*media query*/
 
 .row{
@@ -347,15 +388,36 @@ a{
     padding-right: 35px;
 }
 
-@media(max-width:1024px){
-   .row{
-    flex-wrap: wrap;
-   }
-
-   .col-3{
-    flex: 0 0 50%;
-    max-width: 50%;
+.col-8{
+    flex: 0 0 70%;
+    max-width: 70%;
 }
+
+.col-4{
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+@media (max-width : 1024px){
+    .row{
+       flex-wrap: wrap;
+    }
+
+    .col-3{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-8{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .col-4{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
 }
 
 @media(max-width:992px){

@@ -38,3 +38,21 @@ new Swiper('.swiper-container', {
         }
     }
 })
+
+// Sticky Navegacion
+window.onscroll = function(){ myFunction()};
+
+// obtiene el valor actual
+let navbar = document.getElementById("header");
+
+// obtiene navbar posicion
+let sticky = navbar.offsetTop;
+
+// sticky funcion
+function myFunction(){
+    if(window.pageYOffset >= sticky){
+        navbar.classList.add("sticky");
+    }else{
+        navbar.classList.remove("sticky");
+    }
+}
