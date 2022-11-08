@@ -6,8 +6,8 @@ toggle.addEventListener('click' ,function(){
 })
 
 //con masonry//
-new Masonry("#posts .grilla", {
-    itemSelector : '.grilla-item',
+new Masonry("#posts .grid", {
+    itemSelector : '.grid-item',
     gutter : 20
 });
 
